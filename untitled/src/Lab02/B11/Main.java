@@ -22,10 +22,13 @@ public class Main {
             System.out.println(x*y);
             break;
             default:
-                System.out.println(x/y);
                 if (y==0)
                 {
                     System.out.println("ko chia dc");
+                }
+                else
+                {
+                    System.out.println(x/y);
                 }
         }
     }
