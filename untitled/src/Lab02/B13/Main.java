@@ -9,17 +9,17 @@ public class Main {
         float h=scanner.nextFloat();
         System.out.println("Nhap luong theo h:");
         float luong=scanner.nextFloat();
-        float gioTangCa=h-40;
-        float  tongLuong = h * luong;
-        double   tongluongcatangca = 40 *luong + gioTangCa * luong * 1.5;
+        double tongLuong;
 
         if (h<=40)
         {
-            System.out.println("Tong luong nhan duoc la:"+tongLuong);
+            tongLuong=luong *h;
         }
         else
         {
-            System.out.println("tong ca luong tang ca va luong theo h la :"+tongluongcatangca);
+            float htangca= h-40;
+            tongLuong=40*luong+luong*htangca*1.5;
         }
+        System.out.println(tongLuong);
     }
 }
