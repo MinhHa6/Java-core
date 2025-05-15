@@ -16,7 +16,6 @@ public class Main {
                     sum+=i;
                 }
             }
-
             if (sum==n)
             {
                 System.out.printf("%d la so hoan hao",n);
