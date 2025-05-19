@@ -24,5 +24,42 @@ public class Hinh {
             System.out.println();
         }
 
+        ///hinh trai tim
+        int n = 6; // Kích thước trái tim
+
+        for (int i = n / 2; i <= n; i += 2) {
+            // In khoảng trắng bên trái
+            for (int j = 1; j < n - i; j += 2) {
+                System.out.print(" ");
+            }
+
+            // In nửa trái
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            // In khoảng trắng ở giữa
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+
+            // In nửa phải
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
+        // Phần dưới của trái tim
+        for (int i = n; i >= 1; i--) {
+            for (int j = i; j < n; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= (i * 2) - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
