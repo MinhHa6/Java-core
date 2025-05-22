@@ -6,15 +6,16 @@ public class Hinh {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Nhập chiều rộng: ");
+        // Vẽ hình chữ nhật rỗng
+        System.out.print("Nhập chiều rộng hình chữ nhật: ");
         int chieuRong = scanner.nextInt();
 
-        System.out.print("Nhập chiều cao: ");
+        System.out.print("Nhập chiều cao hình chữ nhật: ");
         int chieuCao = scanner.nextInt();
 
+        System.out.println("\nHình chữ nhật rỗng:");
         for (int i = 0; i < chieuCao; i++) {
             for (int j = 0; j < chieuRong; j++) {
-                // In dấu * ở hàng đầu tiên, hàng cuối hoặc cột đầu, cột cuối
                 if (i == 0 || i == chieuCao - 1 || j == 0 || j == chieuRong - 1) {
                     System.out.print("* ");
                 } else {
@@ -24,7 +25,8 @@ public class Hinh {
             System.out.println();
         }
 
-        ///hinh trai tim
+        // Vẽ hình trái tim
+        System.out.println("\nHình trái tim:");
         int n = 6; // Kích thước trái tim
 
         for (int i = n / 2; i <= n; i += 2) {
@@ -61,5 +63,30 @@ public class Hinh {
             }
             System.out.println();
         }
+
+        // Vẽ tam giác cân rỗng
+        System.out.print("\nNhập chiều cao tam giác cân rỗng: ");
+        int h = scanner.nextInt();
+
+        System.out.println("\nTam giác cân rỗng:");
+        for (int i = 0; i < h; i++) {
+            // In khoảng trắng trước *
+            for (int j = 0; j < h - i - 1; j++) {
+                System.out.print(" ");
+            }
+
+            // In các ký tự * và khoảng trắng bên trong
+            for (int j = 0; j < 2 * i + 1; j++) {
+                if (j == 0 || j == 2 * i || i == h - 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
+        }
+
+        scanner.close();
     }
 }
