@@ -87,6 +87,22 @@ public class Hinh {
             System.out.println();
         }
 
+        // Vẽ hình vuông rỗng
+        System.out.print("\nNhập cạnh hình vuông rỗng: ");
+        int canh = scanner.nextInt();
+
+        System.out.println("\nHình vuông rỗng:");
+        for (int i = 0; i < canh; i++) {
+            for (int j = 0; j < canh; j++) {
+                if (i == 0 || i == canh - 1 || j == 0 || j == canh - 1) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+
         scanner.close();
     }
 }
