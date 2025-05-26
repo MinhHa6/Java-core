@@ -9,12 +9,17 @@ public class main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap review:");
         String review=scanner.nextLine();
+        String chuThuong=" ";
         for (int i=0;i<review.length();i++)
         {
             char c=review.charAt(i);
-            if(c!=' ')
+            if(c>= 'A' && c<= 'Z')
             {
-                result.append(c);
+                chuThuong+=(char)(c+32);
+            }
+            else
+            {
+                chuThuong+=c;
             }
         }
         System.out.println("review bo chuoi la:"+result);
