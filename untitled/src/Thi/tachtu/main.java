@@ -10,35 +10,46 @@ public class main {
         String review = scanner.nextLine();
 
         // Bước 1: Chuyển câu về chữ thường (không dùng toLowerCase)
-        String chuThuong = "";
-        for (int i = 0; i < review.length(); i++) {
-            char c = review.charAt(i);
-            if (c >= 'A' && c <= 'Z') {
-                chuThuong += (char) (c + 32);
-            } else {
-                chuThuong += c;
+        String chuthuong="";
+        for(int i=0;i<review.length();i++)
+        {
+            char c=review.charAt(i);
+            if (c>='A' && c<='Z')
+            {
+                chuthuong+=(char)(c+32);
+            }
+            else {
+                chuthuong+=c;
             }
         }
-        System.out.println("Doan van sau khi duoc chuyen doi la:"+chuThuong);
 
+        System.out.println("Doan review khi chuyenthanhchuthuong"+chuthuong);
         // Bước 2: Tách từ thủ công (không gọi hàm riêng)
-        String[] words = new String[100];
-        int wordIndex = 0;
-        String currentWord = "";
-        for (int i = 0; i < chuThuong.length(); i++) {
-            char c = chuThuong.charAt(i);
-            if (c == ' ') {
-                if (!currentWord.equals("")) {
-                    words[wordIndex++] = currentWord;
-                    currentWord = "";
-                }
-            } else {
-                currentWord += c;
-            }
-        }
-        if (!currentWord.equals("")) {
-            words[wordIndex++] = currentWord;
-        }
+       String []words= new String[100];
+       int wordIndex=0;
+       String currenWord="";
+       for(int i=0;i<chuthuong.length();i++)
+       {
+           char c=chuthuong.charAt(i);
+           if(c==' ')
+           {
+
+               if(!currenWord.equals(""))
+               {
+                   words[wordIndex]=currenWord;
+                   currenWord="";
+               }
+           }
+           else
+           {
+               currenWord+=c;
+           }
+       }
+       if(!currenWord.equals(""))
+       {
+           words[wordIndex++]=currenWord;
+
+       }
 
         // In ra các từ đã tách
         System.out.print("Các từ được tách: ");
