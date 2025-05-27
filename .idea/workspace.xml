@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Java/Lesson4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab05/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab05/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Thi/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Thi/navibays/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Thi/tinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab05/B2/VietNamImportPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java core/Thi/tachtu/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/Thi/tachtu/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Thi/tachtu/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Thi/tachtu/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Lab05/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Lab05/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Thi/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Thi/navibays/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Thi/tachtu/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Thi/tinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Thi/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Thi/navibays/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Thi/tachtu/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Thi/tinh.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
     "Application.Lab04.B3.Main.executor": "Run",
     "Application.Lab04.B4.Main.executor": "Run",
     "Application.Lab04.B5.Main.executor": "Run",
+    "Application.Lab05.B1.main.executor": "Run",
     "Application.Lab05.main.executor": "Run",
     "Application.Lesson03.executor": "Run",
     "Application.Lesson1.executor": "Run",
