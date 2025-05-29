@@ -65,6 +65,14 @@ public class Lesson5 {
         {
             System.out.println(arrayList1.get(i));
         }
+        //hashset
+        // String
+        char a;
+        a='h';
+        char [] arrChar = new char[]{'M','i','n','h','H','a'};
+        String name ="Minh Ha";
+        name="Vu Minh Ha";
+        name.concat("Nam dinh");
 
     }
 }

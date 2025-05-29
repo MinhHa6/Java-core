@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Java/Lesson5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab06/B1/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab06/B2/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab06/B4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab06/B5/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Lab05/B1/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab05/B1/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Lab05/B2/VietNamImportPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Java/Lesson5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/Java/Lesson5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Java/Lesson5.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Java/Lesson5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +78,8 @@
     "Application.Lab04.B5.Main.executor": "Run",
     "Application.Lab05.B1.main.executor": "Run",
     "Application.Lab05.main.executor": "Run",
+    "Application.Lab06.B1.main.executor": "Run",
+    "Application.Lab06.B5.main.executor": "Run",
     "Application.Lesson03.executor": "Run",
     "Application.Lesson1.executor": "Run",
     "Application.Lesson1_1.executor": "Run",
@@ -94,13 +99,26 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lesson5">
-    <configuration name="Lab05.B1.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab05.B1.main" />
+  <component name="RunManager" selected="Application.Lab06.B5.main">
+    <configuration name="Lab06.B1.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab06.B1.main" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab05.B1.*" />
+          <option name="PATTERN" value="Lab06.B1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab06.B5.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab06.B5.main" />
+      <module name="Java core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab06.B5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thi.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thi.main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab06.B4.Main" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Thi.navibays.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thi.navibays.main" />
-      <module name="Java core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thi.navibays.*" />
+          <option name="PATTERN" value="Lab06.B4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +153,11 @@
       </method>
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thi.tachtu.main" />
+      <option name="MAIN_CLASS_NAME" value="Lab06.B2.main" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thi.tachtu.*" />
+          <option name="PATTERN" value="Lab06.B2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson5" />
-        <item itemvalue="Application.Lab05.B1.main" />
-        <item itemvalue="Application.Thi.navibays.main" />
-        <item itemvalue="Application.Thi.main" />
+        <item itemvalue="Application.Lab06.B5.main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.Lab06.B1.main" />
+        <item itemvalue="Application.Lesson5" />
       </list>
     </recent_temporary>
   </component>
