@@ -9,12 +9,15 @@ public class Product {
     private float productPrice;
 
     private float taxImported;
-//    public Product(String proId, String prodName, String manufacturer, float productPrice) {
-//        this.proId = proId;
-//        this.prodName = prodName;
-//        this.manufacturer = manufacturer;
-//        this.productPrice = productPrice;
-//    }
+    public Product(String proId, String prodName, String manufacturer, float productPrice) {
+        this.proId = proId;
+        this.prodName = prodName;
+        this.manufacturer = manufacturer;
+       this.productPrice = productPrice;
+    }
+    public Product (){}
+
+
     public void input()
     {
         Scanner scanner= new Scanner(System.in);
