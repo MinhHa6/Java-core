@@ -1,6 +1,12 @@
 package Lab06.B5;
 
 public class B10 {
+    /**
+     *
+     * @param arr
+     * @return arr[j+1]
+     */
+    //thuat toan chen sap xep tang dan 
     public static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
