@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab07/M_a_i_n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab07/generricclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab07/List/Limkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab07/Map/M_a_p.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab07/Set/Hashset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     "Application.B8.executor": "Run",
     "Application.B9.executor": "Run",
     "Application.DemoGenericClass.executor": "Run",
+    "Application.Hashset.executor": "Run",
     "Application.Hinh.executor": "Run",
     "Application.Lab01.Lesson1.executor": "Run",
     "Application.Lab02.B07.Main.executor": "Run",
@@ -88,9 +91,14 @@
     "Application.Lesson1_3.executor": "Run",
     "Application.Lesson1_4.executor": "Run",
     "Application.Lesson5.executor": "Run",
+    "Application.Limkedlist.executor": "Run",
+    "Application.LinkedHashSet.executor": "Run",
+    "Application.M_a_i_n.executor": "Run",
+    "Application.M_a_p.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Thi.main.executor": "Run",
     "Application.Thi.navibays.main.executor": "Run",
+    "Application.TreeSet.executor": "Run",
     "Application.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -100,13 +108,13 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.M_a_i_n">
-    <configuration name="B10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab06.B5.B10" />
+  <component name="RunManager" selected="Application.M_a_p">
+    <configuration name="Hashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab07.Set.Hashset" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab06.B5.*" />
+          <option name="PATTERN" value="Lab07.Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoGenericClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab07.DemoGenericClass" />
+    <configuration name="Limkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab07.List.Limkedlist" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab07.*" />
+          <option name="PATTERN" value="Lab07.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Leson6" />
+    <configuration name="LinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab07.Set.LinkedHashSet" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.*" />
+          <option name="PATTERN" value="Lab07.Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M_a_i_n" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab07.M_a_i_n" />
+    <configuration name="M_a_p" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab07.Map.M_a_p" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab07.*" />
+          <option name="PATTERN" value="Lab07.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab07.main" />
+    <configuration name="TreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab07.Set.TreeSet" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab07.*" />
+          <option name="PATTERN" value="Lab07.Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.M_a_i_n" />
-        <item itemvalue="Application.DemoGenericClass" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Leson6" />
-        <item itemvalue="Application.B10" />
+        <item itemvalue="Application.M_a_p" />
+        <item itemvalue="Application.Limkedlist" />
+        <item itemvalue="Application.LinkedHashSet" />
+        <item itemvalue="Application.TreeSet" />
+        <item itemvalue="Application.Hashset" />
       </list>
     </recent_temporary>
   </component>
