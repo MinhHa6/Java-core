@@ -10,6 +10,6 @@ public class ImplOperationAdd implements IAccuracy, ITinhToan {
     @Override
     public void doOperation(float num1, float num2) {
         System.out.printf("\n");
-        System.out.printf("Result Add= %"+this.accuracy+"f",(num1+num2));
+        System.out.printf("Result Add= %."+this.accuracy+"f",(num1+num2));
     }
 }
