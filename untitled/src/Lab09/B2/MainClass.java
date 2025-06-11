@@ -5,47 +5,51 @@ import Lab09.B1.Main;
 import java.util.Scanner;
 
 public class MainClass {
-    public void nhapdulieu(){}
 
-    public String inputString()
-    {
-        Scanner scanner = new Scanner(System.in);
-        return scanner.nextLine();
-    }
-    public int inputInt ()
-    {
-        Scanner input = new Scanner(System.in);
-        do {
-            try {
-                int number =Integer.parseInt(input.nextLine());
-                return number;
-            }
-            catch (Exception e)
-            {
-                System.out.println("Vui long nhap so nguyen");
+    public class NhapLieu {
+        private Scanner scanner = new Scanner(System.in);
+
+        public int inputInt() {
+            while (true) {
+                try {
+                    return Integer.parseInt(scanner.nextLine());
+                } catch (NumberFormatException e) {
+                    System.out.println("Vui lòng nhập số nguyên hợp lệ.");
+                }
             }
         }
-        while (true);
-    }
-    public float inputFloat ()
-    {
-        Scanner input = new Scanner(System.in);
-        do {
-            try {
-                float number =Float.parseFloat(input.nextLine());
-                return number;
-            }
-            catch (Exception e)
-            {
-                System.out.println("Vui long nhap so thuc");
+
+        public float inputFloat() {
+            while (true) {
+                try {
+                    return Float.parseFloat(scanner.nextLine());
+                } catch (NumberFormatException e) {
+                    System.out.println("Vui lòng nhập số thực hợp lệ.");
+                }
             }
         }
-        while (true);
+
+        public String inputString() {
+            return scanner.nextLine();
+        }
     }
-    private class nhaplieu{};
+
+    public void nhapDuLieu() {
+        NhapLieu nhap = new NhapLieu();
+
+        System.out.println("Nhập số nguyên:");
+        System.out.println("Value = " + nhap.inputInt());
+
+        System.out.println("Nhập số thực:");
+        System.out.println("Value = " + nhap.inputFloat());
+
+        System.out.println("Nhập chuỗi:");
+        System.out.println("Value = " + nhap.inputString());
+    }
+
     public static void main(String[] args) {
-        MainClass mainClass = new MainClass();
-        mainClass.nhapdulieu();
-        
+        MainClass main = new MainClass();
+        main.nhapDuLieu();
     }
+
 }
