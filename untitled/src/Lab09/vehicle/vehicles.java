@@ -1,5 +1,7 @@
 package Lab09.vehicle;
 
+import java.util.Scanner;
+
 public class vehicles implements IVehicle{
     private  String maker;
     private String model;
@@ -39,11 +41,17 @@ public class vehicles implements IVehicle{
 
     @Override
     public void input() {
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhap noi san xuat :");
+        maker=scanner.nextLine();
+        System.out.println("Nhap mau:");
+        model=scanner.nextLine();
+        System.out.println("Nhap gia:");
+        price=scanner.nextDouble();
     }
 
     @Override
     public void display() {
-
+        System.out.println("Noi san xuat:"+maker+"\nMau:"+model+"\n Price:"+price);
     }
 }
