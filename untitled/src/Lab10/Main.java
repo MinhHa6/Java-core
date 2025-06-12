@@ -8,11 +8,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Giangvien> dsgiangvien= new ArrayList<>();
+        ArrayList<CoHuu>coHuus= new ArrayList<>();
+        ArrayList<ThinhGiang>thinhGiangs= new ArrayList<>();
         System.out.println("Nhap so thong tin giang vien:");
-        int n= scanner.nextInt();
         scanner.nextLine();
-        CoHuu [] ch= new CoHuu[n];
-        ThinhGiang []tg= new ThinhGiang[n];
+        Giangvien gv;
         while (true)
         {
             System.out.println("=====Menu======");
@@ -27,37 +27,42 @@ public class Main {
             switch (choice)
             {
                 case 1:
-                    System.out.println("=====Giang vien co huu=====");
-                    for (int i=0;i<ch.length;i++)
+                    System.out.println("1:cohuu || 2.Thinh giang ");
+                    int chon =Integer.parseInt(scanner.nextLine());
+                    if(chon==1)
                     {
-                        System.out.println("Giang vien co huu "+(i+1)+":");
-                        ch[i]= new CoHuu();
-                        ch[i].input();
-                    }
-                    System.out.println("=====Giang vien Thinh Giang=====");
-                    for (int i=0;i<ch.length;i++)
-                    {
-                        System.out.println("Giang vien thinh Giang "+(i+1)+":");
-                        tg[i]= new ThinhGiang();
-                        tg[i].input();
+                        gv = new CoHuu();
+                        gv.input();
+                        dsgiangvien.add(gv);
                     }
                 case 2:
+                    for(Giangvien ds:dsgiangvien)
+                    {
+                        if(ds!= null)
+                        {
+                            ds.display();
+                        }
+                    }
+                    break;
+                case 3:
                     System.out.println("Giang vien co Huu");
-                    for (CoHuu coHuu:ch)
+                    for (CoHuu coHuu:coHuus)
                     {
                         if(coHuu!=null)
                         {
                             coHuu.display();
                         }
                     }
+                case 4:
                     System.out.println("=====Giang vien Thinh Giang======");
-                    for (ThinhGiang thinhGiang:tg)
+                    for (ThinhGiang thinhGiang:thinhGiangs)
                     {
                         if(thinhGiang!=null)
                         {
                             thinhGiang.display();
                         }
                     }
+                    break;
             }
         }
     }
