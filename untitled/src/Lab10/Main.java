@@ -35,6 +35,12 @@ public class Main {
                         gv.input();
                         dsgiangvien.add(gv);
                     }
+                    else if (chon==2)
+                    {
+                        gv = new ThinhGiang();
+                        gv.input();
+                        dsgiangvien.add(gv);
+                    }
                 case 2:
                     for(Giangvien ds:dsgiangvien)
                     {
