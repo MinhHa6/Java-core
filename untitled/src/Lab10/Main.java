@@ -12,6 +12,8 @@ public class Main {
         ArrayList<ThinhGiang>thinhGiangs= new ArrayList<>();
         System.out.println("Nhap so thong tin giang vien:");
         scanner.nextLine();
+        CoHuu ch;
+        ThinhGiang tg;
         Giangvien gv;
         while (true)
         {
@@ -41,6 +43,7 @@ public class Main {
                         gv.input();
                         dsgiangvien.add(gv);
                     }
+                    break;
                 case 2:
                     for(Giangvien ds:dsgiangvien)
                     {
@@ -68,6 +71,14 @@ public class Main {
                             thinhGiang.display();
                         }
                     }
+                    break;
+                case 5:
+                    double tong=0;
+                    for (Giangvien g:dsgiangvien)
+                    {
+                        tong+=g.tinhLuong();
+                    }
+                    System.out.println("Luong toan bo nhan vien :"+tong);
                     break;
             }
         }
