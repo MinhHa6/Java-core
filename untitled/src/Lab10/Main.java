@@ -80,6 +80,24 @@ public class Main {
                     }
                     System.out.println("Luong toan bo nhan vien :"+tong);
                     break;
+                case 6:
+                    Giangvien max = null;
+                    double maxLuong = -1;
+                    for (Giangvien g : dsgiangvien) {
+                        double l = g.tinhLuong();
+                        if (l > maxLuong) {
+                            maxLuong = l;
+                            max = g;
+                        }
+                    }
+                    if (max != null) {
+                        System.out.println("Giang vien co luong cao nhat:");
+                        max.display();
+                    }
+                    break;
+                default:
+                    System.out.println("Lua chon khong hop le!");
+                    break;
             }
         }
     }
