@@ -1,8 +1,8 @@
-package Lab10;
+package Lab10.B1;
 
 import java.util.Scanner;
 
-public class ThinhGiang extends Giangvien{
+public class ThinhGiang extends Giangvien {
     private String coquan;
     private float sohgiangdaytrongthang;
     public ThinhGiang (){super();}

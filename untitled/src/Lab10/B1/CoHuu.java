@@ -1,8 +1,8 @@
-package Lab10;
+package Lab10.B1;
 
 import java.util.Scanner;
 
-public class CoHuu extends Giangvien{
+public class CoHuu extends Giangvien {
     private int sogiogiangdaytrongthang;
     private double luongthoathuan;
     private final float sohquydinhtrongthang=40;

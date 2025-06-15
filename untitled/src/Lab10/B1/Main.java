@@ -1,6 +1,5 @@
-package Lab10;
+package Lab10.B1;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 

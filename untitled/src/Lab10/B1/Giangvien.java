@@ -1,6 +1,5 @@
-package Lab10;
+package Lab10.B1;
 
-import javax.xml.namespace.QName;
 import java.util.Scanner;
 
 public abstract class Giangvien {
