@@ -27,7 +27,7 @@ public class Test {
                 case 1:
                     for (int i=0;i<asiaCountries.length;i++)
                     {
-                        System.out.println("Xe jupiter "+(i+1)+":");
+                        System.out.println(" AsiaCountry"+(i+1)+":");
                         asiaCountries[i]= new AsiaCountry();
                         asiaCountries[i].input();
                     }
@@ -41,7 +41,7 @@ public class Test {
                     break;
                 case 3:
                     // Sort Jupiter theo giá tăng dần
-                    Arrays.sort(asiaCountries, (a, b) -> Double.compare(a.getArea(), b.getArea()));
+                    Arrays.sort(asiaCountries,(a,b)->(Double.compare(a.getArea(),b.getArea())));
                     System.out.println("Danh sach countries Asia sau khi sap xep theo gia tang dan:");
                     for (int i = 0; i < asiaCountries.length; i++) {
                         System.out.println("Countries Asia" + (i + 1) + ":");
