@@ -11,6 +11,11 @@ public class Serius extends Motor {
         super(code, name, capacity, num);
         this.warranty=warranty;
     }
+
+    public int getWarranty() {
+        return warranty;
+    }
+
     @Override
     public void inputInfor()
     {

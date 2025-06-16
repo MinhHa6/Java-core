@@ -1,5 +1,6 @@
 package Lab10.Motor.yamaha;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Yamaha {
@@ -46,6 +47,55 @@ public class Yamaha {
                         seriuses[i].inputInfor();
                     }
                     break;
+                case 3:
+                    // Sort Jupiter theo giá tăng dần
+                    Arrays.sort(jupiters, (a, b) -> Integer.compare(a.getWarranty(), b.getWarranty()));
+                    System.out.println("Danh sach Jupiter sau khi sap xep theo gia tang dan:");
+                    for (int i = 0; i < jupiters.length; i++) {
+                        System.out.println("Xe Jupiter " + (i + 1) + ":");
+                        jupiters[i].displayInfor();
+                    }
+
+                    // Sort Serius theo giá tăng dần
+                    Arrays.sort(seriuses, (a, b) -> Integer.compare(a.getWarranty(), b.getWarranty()));
+                    System.out.println("Danh sach Serius sau khi sap xep theo gia tang dan:");
+                    for (int i = 0; i < seriuses.length; i++) {
+                        System.out.println("Xe Serius " + (i + 1) + ":");
+                        seriuses[i].displayInfor();
+                    }
+                    break;
+                case 4:
+                    System.out.print("Nhap ID can tim: ");
+                    String searchId = scanner.nextLine();
+                    boolean found = false;
+
+                    for (Jupiter j : jupiters) {
+                        if (j.getName().equalsIgnoreCase(searchId)) {
+                            System.out.println("Tim thay trong danh sach Jupiter:");
+                            j.displayInfor();
+                            found = true;
+                        }
+                    }
+
+                    for (Serius s : seriuses) {
+                        if (s.getName().equalsIgnoreCase(searchId)) {
+                            System.out.println("Tim thay trong danh sach Serius:");
+                            s.displayInfor();
+                            found = true;
+                        }
+                    }
+
+                    if (!found) {
+                        System.out.println("Khong tim thay xe co ID: " + searchId);
+                    }
+                    break;
+
+                case 5:
+                    System.out.println("Thoat chuong trinh. Tam biet!");
+                    return;
+
+                default:
+                    System.out.println("Lua chon khong hop le. Vui long chon lai!");
             }
         }
 

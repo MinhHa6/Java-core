@@ -11,6 +11,15 @@ public class Jupiter extends Motor {
         super(code, name, capacity, num);
         this.warranty=warranty;
     }
+
+    public int getWarranty() {
+        return warranty;
+    }
+
+    public void setWarranty(int warranty) {
+        this.warranty = warranty;
+    }
+
     @Override
     public void inputInfor()
     {

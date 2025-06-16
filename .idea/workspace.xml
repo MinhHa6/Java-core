@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab10/Motor/IMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab10/Motor/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Jupiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Serius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Yamaha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Lab10/CoHuu.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab10/B1/CoHuu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Lab10/Giangvien.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab10/B1/Giangvien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Lab10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab10/B1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Lab10/ThinhGiang.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab10/B1/ThinhGiang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Lab10/Motor/yamaha/Jupiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/Lab10/Motor/yamaha/Jupiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Lab10/Motor/yamaha/Serius.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/Lab10/Motor/yamaha/Serius.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Lab10/Motor/yamaha/Yamaha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/Lab10/Motor/yamaha/Yamaha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Jupiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Jupiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Serius.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Serius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Yamaha.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab10/Motor/yamaha/Yamaha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
