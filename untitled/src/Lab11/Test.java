@@ -5,26 +5,24 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class Test {
-    Scanner scanner = new Scanner(System.in);
-    private ArrayList<LuxuryCar> dsxesang= new ArrayList<>();
-    LuxuryCar la;
-    Car car;
-    // Nhap ds xe sang ;
-    public  void  Input()
+    Scanner sc = new Scanner(System.in);
+    private  ArrayList<LuxuryCar>dsxesang = new ArrayList<>();
+    // ham nhap
+    public void Input()
     {
-        System.out.print("Nhập tên xe: ");
-        String name = scanner.nextLine();
-        System.out.print("Nhà sản xuất: ");
-        String producer = scanner.nextLine();
-        System.out.print("Năm sản xuất: ");
-        int year = Integer.parseInt(scanner.nextLine());
-        System.out.print("Số chỗ ngồi: ");
-        int seat = Integer.parseInt(scanner.nextLine());
-        System.out.print("Giá gốc: ");
-        float rootPrice = Float.parseFloat(scanner.nextLine());
-        System.out.print("Tỷ lệ đặc biệt (% dưới dạng thập phân): ");
-        float specialRate = Float.parseFloat(scanner.nextLine());
-        LuxuryCar car = new LuxuryCar(name, producer, year, seat, rootPrice, specialRate);
+        System.out.println("Nhap ten xe:");
+        String name=sc.nextLine();
+        System.out.println("Nhap nha san xuat:");
+        String product=sc.nextLine();
+        System.out.println("Nhap nam san xuat:");
+        int year=Integer.parseInt(sc.nextLine());
+        System.out.println("Nhap ghe ngoi:");
+        int seat=Integer.parseInt(sc.nextLine());
+        System.out.println("Nhap gia goc cua xe:");
+        float rootPrice=Float.parseFloat(sc.nextLine());
+        System.out.print("Ty gia ban dac biet:");
+        float specialRate = Float.parseFloat(sc.nextLine());
+        LuxuryCar car = new LuxuryCar(name,product,year,seat,rootPrice,specialRate);
         dsxesang.add(car);
     }
     public void Display() {
@@ -45,7 +43,7 @@ public class Test {
 
     public void SearchByName() {
         System.out.print("Nhập tên xe cần tìm: ");
-        String searchName = scanner.nextLine();
+        String searchName = sc.nextLine();
         boolean found = false;
         for (LuxuryCar car : dsxesang) {
             if (car.getName().equalsIgnoreCase(searchName)) {
@@ -58,22 +56,24 @@ public class Test {
             System.out.println("Không tìm thấy xe có tên: " + searchName);
         }
     }
+
     public static void main(String[] args) {
-    Test test= new Test();
+        Test test = new Test();
         Scanner scanner = new Scanner(System.in);
 
-        while (true)
-        {
-            System.out.println("===Menu====");
-            System.out.println("1.Input LuxuryCar");
-            System.out.println("2.Display LuxuryCar");
-            System.out.println("3.Sort price ");
-            System.out.println("4.Search Name");
-            int choice=Integer.parseInt(scanner.nextLine());
-            switch (choice)
-            {
+        while (true) {
+            System.out.println("\n=== MENU ===");
+            System.out.println("1. Nhập xe sang");
+            System.out.println("2. Hiển thị xe sang");
+            System.out.println("3. Sắp xếp theo giá");
+            System.out.println("4. Tìm theo tên");
+            System.out.println("0. Thoát");
+            System.out.print("Chọn: ");
+            int choice = Integer.parseInt(scanner.nextLine());
+
+            switch (choice) {
                 case 1:
-                   test.Input();
+                    test.Input();
                     break;
                 case 2:
                     test.Display();
@@ -84,9 +84,11 @@ public class Test {
                 case 4:
                     test.SearchByName();
                     break;
+                case 0:
+                    System.out.println("Thoát chương trình.");
+                    return;
                 default:
-                    System.out.println("Chon so cho hop le");
-                    break;
+                    System.out.println("Lựa chọn không hợp lệ.");
             }
         }
     }
