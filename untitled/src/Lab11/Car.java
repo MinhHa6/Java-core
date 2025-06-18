@@ -16,6 +16,46 @@ public class Car implements  ICar{
         this.rootPrice = rootPrice;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getProducer() {
+        return producer;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public int getSeat() {
+        return seat;
+    }
+
+    public float getRootPrice() {
+        return rootPrice;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setProducer(String producer) {
+        this.producer = producer;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public void setSeat(int seat) {
+        this.seat = seat;
+    }
+
+    public void setRootPrice(float rootPrice) {
+        this.rootPrice = rootPrice;
+    }
+
     @Override
     public float calculateTax() { // tinh thue xe
         if (seat<7){ // xe duoi 7 cho
@@ -32,6 +72,6 @@ public class Car implements  ICar{
     @Override
     public void getInfor() {
         System.out.println("Ten xe:"+name+"\n Nha san xuat:"+producer+"\n Nam san xuat:"+"\n Ghe ngoi:"+seat+
-                "\n Gia goc cua xe:"+rootPrice);
+                "\n Gia goc cua xe:"+rootPrice+"\n Thue:"+calculateTax()+"\n Tong tien: "+calulatePrice());
     }
 }
