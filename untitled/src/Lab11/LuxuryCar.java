@@ -12,7 +12,8 @@ public class LuxuryCar extends Car{
     public  float calulatePrice() {
         return getRootPrice()+calculateTax()+getRootPrice()*specialRate;
     }
-    public  float calulatePrice( float transportCost) { // nap chong tinh them chi phi van chuyen
+    public  float calulatePrice( float transportCost) {
+        transportCost=100;// nap chong tinh them chi phi van chuyen
         return calulatePrice()+transportCost;
     }
     @Override
