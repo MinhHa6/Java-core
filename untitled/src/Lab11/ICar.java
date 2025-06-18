@@ -1,7 +1,7 @@
 package Lab11;
 
 public interface ICar {
-    float calculateTax ();
-    float calulatePrice ();
-    void getInfor();
+    float calculateTax ();// tinh thue
+    float calulatePrice ();// tinh gia
+    void getInfor();// hien thi thong tin cua xe
 }
