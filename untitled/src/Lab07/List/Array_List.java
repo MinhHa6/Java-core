@@ -14,6 +14,7 @@ public class Array_List {
         listNguyen.add(1);
         listNguyen.add(5);
         listNguyen.add(4);
+        listNguyen.add(7);
         System.out.println("List nguyen:"+listNguyen);
         listNguyen.set(1,6);
         System.out.println("List nguyen sau khi update o vi tri thu [1] la"+listNguyen);
@@ -25,5 +26,19 @@ public class Array_List {
         System.out.println("Ds sap xep tang dan:");
         listNguyen.sort((a,b)->a-b);
         System.out.println(listNguyen);
+        // giai thuat blue sort
+        for (int i=0;i<listNguyen.size();i++)
+        {
+            for (int j=i+1;j<listNguyen.size();j++)
+            {
+                if(listNguyen.get(i)>listNguyen.get(j))
+                {
+                    int temp=listNguyen.get(j);
+                    listNguyen.set(j,listNguyen.get(i));
+                    listNguyen.set(i,temp);
+                }
+            }
+        }
+        System.out.println("List nguyen sau khi dc sap xep tang dan la:"+listNguyen);
     }
 }
