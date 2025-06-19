@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/src/Lab07/Set/set.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java core/Lab07/List/Array_List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/Lab07/List/Array_List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Lab07/List/Array_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab07/List/Array_List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Array_List">
+  <component name="RunManager" selected="Application.set">
     <configuration name="Array_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab07.List.Array_List" />
       <module name="Java core" />
@@ -173,19 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Target" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Gt.List.Target" />
-      <module name="Java core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Gt.List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab11.Test" />
       <module name="Java core" />
@@ -199,13 +185,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab07.Set.set" />
+      <module name="Java core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab07.Set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.set" />
         <item itemvalue="Application.Array_List" />
         <item itemvalue="Application.MapDemo" />
         <item itemvalue="Application.SetDemo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Target" />
       </list>
     </recent_temporary>
   </component>
