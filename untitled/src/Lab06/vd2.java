@@ -15,6 +15,28 @@ public class vd2 {
         }
         System.out.println("Cam on da nhap lieu");
     }
+    public void sapxep()
+    {
+        for (int i=0;i<arrNhanVien.length;i++)
+        {
+            for(int j=i+1;j<arrNhanVien.length;j++)
+            {
+                if(Float.parseFloat(arrNhanVien[j][1])<Float.parseFloat(arrNhanVien[i][1]))
+                {
+                    String [][]temp= new String[1][2];
+                    // doi cho
+                    temp[0][0]=arrNhanVien[j][0];
+                    temp[0][1]=arrNhanVien[j][1];
+
+                    arrNhanVien[j][0]=arrNhanVien[i][0];
+                    arrNhanVien[j][1]=arrNhanVien[i][1];
+                    
+                    temp[0][0]=arrNhanVien[i][0];
+                    temp[0][1]=arrNhanVien[i][1];
+                }
+            }
+        }
+    }
     public static void main(String[] args) {
 
     }
