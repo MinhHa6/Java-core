@@ -46,6 +46,10 @@ public class vd2 {
     }
     public static void main(String[] args) {
 
+        vd2 vs= new vd2();
+        vs.nhapDuLieu();
+        vs.sapxep();
+        vs.hienthi();
     }
 
 }
