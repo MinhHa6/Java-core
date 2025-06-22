@@ -30,11 +30,18 @@ public class vd2 {
 
                     arrNhanVien[j][0]=arrNhanVien[i][0];
                     arrNhanVien[j][1]=arrNhanVien[i][1];
-                    
+
                     temp[0][0]=arrNhanVien[i][0];
                     temp[0][1]=arrNhanVien[i][1];
                 }
             }
+        }
+    }
+    public void hienthi()
+    {
+        for (int i=0;i<arrNhanVien.length;i++)
+        {
+            System.out.println(arrNhanVien[i][0]+"-"+arrNhanVien[i][1]);
         }
     }
     public static void main(String[] args) {
