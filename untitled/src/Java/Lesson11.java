@@ -19,6 +19,10 @@ throw
 -Dingh nghia :lai exception
  */
 public static void main(String[] args) {
-    File file = new File("F:minhhha.txt");
+    File file = new File("F:/minhhha.txt");
+    System.out.println("path:"+file.getPath());
+    System.out.println("Name is :"+file.getName());
+    System.out.println("Files Exits is :"+file.exists());
+    System.out.println("file is:"+file.isFile());
 }
 }
