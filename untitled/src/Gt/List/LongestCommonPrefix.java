@@ -20,6 +20,7 @@ public class LongestCommonPrefix {
 
         return prefix;
     }
+    // ham xu ly 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
