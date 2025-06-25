@@ -20,7 +20,7 @@ public class LongestCommonPrefix {
 
         return prefix;
     }
-    // ham xu ly 
+    // ham xu ly
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -38,4 +38,5 @@ public class LongestCommonPrefix {
 
         System.out.println("Tiền tố chung dài nhất: " + result);
     }
+    //
 }
