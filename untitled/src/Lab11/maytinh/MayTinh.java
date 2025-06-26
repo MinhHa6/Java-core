@@ -1,4 +1,4 @@
-package maytinh;
+package Lab11.maytinh;
 
 import java.util.Scanner;
 

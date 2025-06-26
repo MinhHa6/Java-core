@@ -1,7 +1,7 @@
-package maytinh.dell;
+package Lab11.maytinh.dell;
 
-import maytinh.MayTinh;
-import maytinh.apple.Apple;
+import Lab11.maytinh.MayTinh;
+import Lab11.maytinh.apple.Apple;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -12,8 +12,7 @@ public class mipComputer {
     List<MayTinh> dsmayTinhs = new ArrayList<>();
     public void input() {
         Scanner scanner = new Scanner(System.in);
-        int n = 0;
-
+        int n;
         while (true) {
             try {
                 System.out.println("Số máy cần nhập:");

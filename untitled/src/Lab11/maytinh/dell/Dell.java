@@ -1,6 +1,6 @@
-package maytinh.dell;
+package Lab11.maytinh.dell;
 
-import maytinh.MayTinh;
+import Lab11.maytinh.MayTinh;
 
 import java.util.Scanner;
 
