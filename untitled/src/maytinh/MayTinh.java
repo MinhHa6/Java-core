@@ -52,7 +52,7 @@ public class MayTinh implements IMayTinh{
     @Override
     public void displayInfor() {
 
-        System.out.println("Ma may:"+code+"\n Ten may:"+name+"\n Gia"+price);
+        System.out.println("Ma may:"+code+"\n Ten may:"+name+"\n Gia:"+price);
     }
 
     @Override

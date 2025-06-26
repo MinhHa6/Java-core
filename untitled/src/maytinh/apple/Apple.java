@@ -13,6 +13,11 @@ public class Apple extends MayTinh {
         super(code, name, price);
         this.warranty = warranty;
     }
+
+    public int getWarranty() {
+        return warranty;
+    }
+
     @Override
     public void inputInfor()
     {
