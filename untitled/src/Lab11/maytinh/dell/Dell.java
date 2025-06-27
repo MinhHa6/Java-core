@@ -25,6 +25,7 @@ public class Dell extends MayTinh {
         System.out.println("Nhap thoi gian bao hanh:");
         warranty=Integer.parseInt(sc.nextLine());
     }
+    // hien thi thong tin dell
     @Override
     public void displayInfor()
     {

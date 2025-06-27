@@ -16,7 +16,7 @@ public class mipComputer {
         try {
             System.out.println("So dien thoai can nhap:");
             int n = Integer.parseInt(sc.nextLine());
-            if (n < 2) {
+            if (n <=3) {
                 System.out.println("so dien thoai phai lon hon 3");
             } else {
                 for (int i = 0; i < n; i++) {
