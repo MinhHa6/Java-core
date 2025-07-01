@@ -3,7 +3,7 @@ package Lab11.maytinh.dell;
 import Lab11.maytinh.MayTinh;
 
 import java.util.Scanner;
-
+//
 public class Dell extends MayTinh {
     private int warranty;// thoi gian bao hanh
     public Dell (){};
