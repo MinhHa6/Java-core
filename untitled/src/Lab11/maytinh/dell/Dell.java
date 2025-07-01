@@ -16,7 +16,7 @@ public class Dell extends MayTinh {
     public int getWarranty() {
         return warranty;
     }
-
+// nhap thong tin may tinh 
     @Override
     public  void inputInfor()
     {
