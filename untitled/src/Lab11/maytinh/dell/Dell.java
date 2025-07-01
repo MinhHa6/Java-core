@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Dell extends MayTinh {
     private int warranty;// thoi gian bao hanh
     public Dell (){};
-
+// ham khoi tao 
     public Dell(String code, String name, double price, int warranty) {
         super(code, name, price);
         this.warranty = warranty;
@@ -16,7 +16,7 @@ public class Dell extends MayTinh {
     public int getWarranty() {
         return warranty;
     }
-// nhap thong tin may tinh 
+// nhap thong tin may tinh
     @Override
     public  void inputInfor()
     {
