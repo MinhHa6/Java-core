@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/untitled/src/Lab11/maytinh/dell/Dell.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Lab11/maytinh/dell/Dell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/OOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/OOP/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/Lab11/maytinh/dell/Dell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/Lab11/maytinh/dell/Dell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/maytinh/MayTinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/maytinh/MayTinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/maytinh/dell/mipComputer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/maytinh/dell/mipComputer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -143,27 +149,33 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Javacore&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Spring&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.maytinh.dell.mipComputer">
-    <configuration name="Lab12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab12" />
-      <module name="Java core" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Gt.List.LongestCommonPrefix" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Gt.List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OT.OOP.Main" />
+      <module name="Java core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OT.OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.maytinh.dell.mipComputer" />
         <item itemvalue="Application.mipComputer" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.TestThread" />
-        <item itemvalue="Application.Lab12" />
       </list>
     </recent_temporary>
   </component>
