@@ -1,27 +1,27 @@
 package OT.OOP.B1;
 
 abstract class Employee {
-    private String id;
-    private String name;
-    private double salary;
 
-    public Employee(String id, String name, double salary) {
-        this.id = id;
-        this.name = name;
-        this.salary = salary;
+    private  String id;
+    private String name;
+    private Double salary;
+    public Employee(String id,String name,Double salary)
+    {
+        this.id=id;
+        this.name= name;
+        this.salary=salary;
     }
 
-    public String getId() { return id; }
-    public String getName() { return name; }
-    public double getSalary() { return salary; }
+    public Double getSalary() {
+        return salary;
+    }
 
-    public void setSalary(double salary) { this.salary = salary; }
-
-    // Phương thức trừu tượng
-    public abstract double calculateBonus();
-
-    // Phương thức chung
-    public void showInfo() {
-        System.out.println("ID: " + id + ", Tên: " + name + ", Lương: " + salary);
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
+    public abstract  double calculateBonus();
+    public void showInfo()
+    {
+        System.out.println("Id"+id+"\n Name:"+name+"\n Salary:"+salary);
     }
 }

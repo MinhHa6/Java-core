@@ -1,14 +1,15 @@
 package OT.OOP.B1;
 
-class FullTime extends Employee{
-    private int overtimeHouses;
-    public FullTime(String id, String name, double salary, int overtimeHours) {
-        super(id, name, salary);
-        this.overtimeHouses=overtimeHours;
+class FullTime extends Employee {
+
+    public FullTime(String id,String name,Double salary)
+    {
+        super(id,name,salary);
     }
     @Override
     public double calculateBonus() {
-        int overtimeHours;
-        return getSalary() * 0.1 + overtimeHouses * 50000;
+        return getSalary()*0.2;
     }
+
 }
+
