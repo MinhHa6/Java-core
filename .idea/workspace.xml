@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Collection/B2/Dangkyemail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Collection/B3/Quanlysinhvien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +123,7 @@
     "Application.Palindrome.executor": "Run",
     "Application.ProductTest.executor": "Run",
     "Application.Quanlygiohang.executor": "Run",
+    "Application.Quanlysinhvien.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.RemoveElement.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
@@ -157,26 +158,13 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Dangkyemail">
+  <component name="RunManager" selected="Application.Quanlysinhvien">
     <configuration name="Dangkyemail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OT.Collection.B2.Dangkyemail" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OT.Collection.B2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OT.OOP.B1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OT.OOP.B1.Main" />
-      <module name="Java core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OT.OOP.B1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,13 +211,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Quanlysinhvien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OT.Collection.B3.Quanlysinhvien" />
+      <module name="Java core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OT.Collection.B3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Quanlysinhvien" />
         <item itemvalue="Application.Dangkyemail" />
         <item itemvalue="Application.Quanlygiohang" />
         <item itemvalue="Application.OT.OOP.B3.Main" />
         <item itemvalue="Application.OT.OOP.B2.Main" />
-        <item itemvalue="Application.OT.OOP.B1.Main" />
       </list>
     </recent_temporary>
   </component>
