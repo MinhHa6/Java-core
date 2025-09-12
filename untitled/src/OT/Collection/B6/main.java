@@ -10,6 +10,7 @@ public class main {
          c.deleteStudent("s1");
          c.printAll();
          c.gpaMax();
+         // dem so sinh vien co diem >8
          c.demSv();
     }
 }
