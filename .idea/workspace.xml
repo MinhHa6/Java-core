@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B2/Anna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B2/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B2/Michael.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B2/TestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/OT/Multithreading/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B1/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/OT/Multithreading/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B1/TestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/OT/Multithreading/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B1/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B3/ChaoHoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B3/ThayDoChao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/B3/XaTruongChao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +120,7 @@
     "Application.MapDemo.executor": "Run",
     "Application.MergeSortedLists.executor": "Run",
     "Application.OT.Multithreading.B2.TestThread.executor": "Run",
+    "Application.OT.Multithreading.B3.Main.executor": "Run",
     "Application.OT.OOP.B1.Main.executor": "Run",
     "Application.OT.OOP.B2.Main.executor": "Run",
     "Application.OT.OOP.B3.Main.executor": "Run",
@@ -166,7 +164,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OT.Multithreading.B2.TestThread">
+  <component name="RunManager" selected="Application.OT.Multithreading.B3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OT.Collection.B7.Main" />
       <module name="Java core" />
@@ -193,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuanLyCuaHang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OT.Collection.B5.QuanLyCuaHang" />
+    <configuration name="OT.Multithreading.B3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OT.Multithreading.B3.Main" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OT.Collection.B5.*" />
+          <option name="PATTERN" value="OT.Multithreading.B3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OT.Multithreading.B3.Main" />
         <item itemvalue="Application.OT.Multithreading.B2.TestThread" />
         <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.QuanLyCuaHang" />
       </list>
     </recent_temporary>
   </component>
