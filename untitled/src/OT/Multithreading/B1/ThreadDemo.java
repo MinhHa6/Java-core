@@ -1,4 +1,4 @@
-package OT.Multithreading;
+package OT.Multithreading.B1;
 
 public class ThreadDemo extends Thread{
     private Thread t;

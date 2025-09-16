@@ -1,4 +1,4 @@
-package OT.Multithreading;
+package OT.Multithreading.B1;
 
 public class Demo {
     public void printCount(){

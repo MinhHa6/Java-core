@@ -1,4 +1,4 @@
-package OT.Multithreading;
+package OT.Multithreading.B1;
 
 public class TestThread {
     public static void main(String[] args) {
