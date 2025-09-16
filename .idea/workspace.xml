@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Collection/B7/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Collection/B7/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Collection/B7/OrderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Collection/B7/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/OT/Multithreading/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,14 +155,14 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Spring&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Spring2/spring2/demo1/demo1&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestThread">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OT.Collection.B7.Main" />
       <module name="Java core" />
@@ -190,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quanlysinhvien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OT.Collection.B3.Quanlysinhvien" />
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OT.Multithreading.TestThread" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OT.Collection.B3.*" />
+          <option name="PATTERN" value="OT.Multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.QuanLyCuaHang" />
         <item itemvalue="Application.Topsanphambanchay" />
-        <item itemvalue="Application.Quanlysinhvien" />
       </list>
     </recent_temporary>
   </component>
