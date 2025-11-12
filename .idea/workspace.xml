@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/comment/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/OOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/abstractioni/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/abstractioni/SampleAbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/abstractioni/SampleExtendClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/encapsulations/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/encapsulations/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/inherritance/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/inherritance/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/inherritance/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/inherritance/SampleInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/inherritance/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/inherritance/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/polymorphism/Polymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/polymorphism/SampleAbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/oop/polymorphism/SampleOverLoading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,144 +58,131 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Array_List.executor": "Run",
-    "Application.B10.executor": "Run",
-    "Application.B12.executor": "Run",
-    "Application.B6.executor": "Run",
-    "Application.B8.executor": "Run",
-    "Application.B9.executor": "Run",
-    "Application.BaiThucHanh04.executor": "Run",
-    "Application.BaiThucHanh5.executor": "Run",
-    "Application.BankDemo.executor": "Run",
-    "Application.BookManager.executor": "Run",
-    "Application.Bth4.executor": "Run",
-    "Application.ByteStreamApp.executor": "Run",
-    "Application.Comment.executor": "Run",
-    "Application.Dangkyemail.executor": "Run",
-    "Application.DemoGenericClass.executor": "Run",
-    "Application.FileHanding.executor": "Run",
-    "Application.FlowerTest.executor": "Run",
-    "Application.Hashset.executor": "Run",
-    "Application.Hinh.executor": "Run",
-    "Application.Java.Lesson09.Main.executor": "Run",
-    "Application.Java.Lesson10.MainClass.executor": "Run",
-    "Application.JumpStatements.executor": "Run",
-    "Application.Lab01.Lesson1.executor": "Run",
-    "Application.Lab02.B07.Main.executor": "Run",
-    "Application.Lab02.B10.Main.executor": "Run",
-    "Application.Lab02.B11.Main.executor": "Run",
-    "Application.Lab02.B12.Main.executor": "Run",
-    "Application.Lab02.B13.Main.executor": "Run",
-    "Application.Lab02.B14.Main.executor": "Run",
-    "Application.Lab02.B2.Main.executor": "Run",
-    "Application.Lab02.B3.Main.executor": "Run",
-    "Application.Lab02.B5.Main.executor": "Run",
-    "Application.Lab02.B6.Main.executor": "Run",
-    "Application.Lab02.B8.Main.executor": "Run",
-    "Application.Lab03.B10.Main.executor": "Run",
-    "Application.Lab03.B2.Main.executor": "Run",
-    "Application.Lab03.B3.Main.executor": "Run",
-    "Application.Lab03.B4.Main.executor": "Run",
-    "Application.Lab03.B5.Main.executor": "Run",
-    "Application.Lab03.B7.Main.executor": "Run",
-    "Application.Lab03.B8.Main.executor": "Run",
-    "Application.Lab04.B1.Main.executor": "Run",
-    "Application.Lab04.B2.Main.executor": "Run",
-    "Application.Lab04.B3.Main.executor": "Run",
-    "Application.Lab04.B4.Main.executor": "Run",
-    "Application.Lab04.B5.Main.executor": "Run",
-    "Application.Lab05.B1.main.executor": "Run",
-    "Application.Lab05.main.executor": "Run",
-    "Application.Lab06.B1.main.executor": "Run",
-    "Application.Lab06.B5.main.executor": "Run",
-    "Application.Lab10.Main.executor": "Run",
-    "Application.Lab12.executor": "Run",
-    "Application.Leson6.executor": "Run",
-    "Application.Lesson03.executor": "Run",
-    "Application.Lesson1.executor": "Run",
-    "Application.Lesson10.executor": "Run",
-    "Application.Lesson11.executor": "Run",
-    "Application.Lesson1_1.executor": "Run",
-    "Application.Lesson1_2.executor": "Run",
-    "Application.Lesson1_3.executor": "Run",
-    "Application.Lesson1_4.executor": "Run",
-    "Application.Lesson5.executor": "Run",
-    "Application.Limkedlist.executor": "Run",
-    "Application.LinkedHashSet.executor": "Run",
-    "Application.LongestCommonPrefix.executor": "Run",
-    "Application.LoopStatements.executor": "Run",
-    "Application.M_a_i_n.executor": "Run",
-    "Application.M_a_p.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainClass.executor": "Run",
-    "Application.MainClass3.executor": "Run",
-    "Application.Mainclass2.executor": "Run",
-    "Application.ManagerCity.executor": "Run",
-    "Application.MapDemo.executor": "Run",
-    "Application.MergeSortedLists.executor": "Run",
-    "Application.OOP.executor": "Run",
-    "Application.OT.Multithreading.B2.TestThread.executor": "Run",
-    "Application.OT.Multithreading.B3.Main.executor": "Run",
-    "Application.OT.OOP.B1.Main.executor": "Run",
-    "Application.OT.OOP.B2.Main.executor": "Run",
-    "Application.OT.OOP.B3.Main.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.ProductTest.executor": "Run",
-    "Application.QuanLyCuaHang.executor": "Run",
-    "Application.Quanlygiohang.executor": "Run",
-    "Application.Quanlysinhvien.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.RemoveElement.executor": "Run",
-    "Application.RomanToInteger.executor": "Run",
-    "Application.SaveText.executor": "Run",
-    "Application.SetDemo.executor": "Run",
-    "Application.StudentManager.executor": "Run",
-    "Application.Target.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestThread.executor": "Run",
-    "Application.Thi.main.executor": "Run",
-    "Application.Thi.navibays.main.executor": "Run",
-    "Application.Topsanphambanchay.executor": "Run",
-    "Application.TreeMap.executor": "Run",
-    "Application.TreeSet.executor": "Run",
-    "Application.Treeset.executor": "Run",
-    "Application.Volatile.executor": "Run",
-    "Application.Yamaha.executor": "Run",
-    "Application.demo.executor": "Run",
-    "Application.main.executor": "Run",
-    "Application.maytinh.dell.mipComputer.executor": "Run",
-    "Application.mipComputer.executor": "Run",
-    "Application.set.executor": "Run",
-    "Application.vd1.executor": "Run",
-    "Application.vd2.executor": "Run",
-    "Application.vd3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Spring2/spring2/demo1/demo1",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Array_List.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BaiThucHanh04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BaiThucHanh5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bth4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ByteStreamApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Comment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dangkyemail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoGenericClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileHanding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlowerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hashset.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hinh.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java.Lesson09.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java.Lesson10.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JumpStatements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab01.Lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B07.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B10.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B11.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B12.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B13.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B14.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B5.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B6.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab02.B8.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab03.B10.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab03.B2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab03.B3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab03.B4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab03.B5.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab03.B7.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab03.B8.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab04.B1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab04.B2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab04.B3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab04.B4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab04.B5.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab05.B1.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab05.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab06.B1.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab06.B5.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab10.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lab12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leson6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson1_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson1_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson1_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Limkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedHashSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopStatements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M_a_i_n.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M_a_p.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mainclass2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManagerCity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OOP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OT.Multithreading.B2.TestThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OT.Multithreading.B3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OT.OOP.B1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OT.OOP.B2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OT.OOP.B3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuanLyCuaHang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Quanlygiohang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Quanlysinhvien.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SaveText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Target.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thi.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Thi.navibays.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Topsanphambanchay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TreeSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Treeset.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Volatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Yamaha.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maytinh.dell.mipComputer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mipComputer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.set.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vd1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vd2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.vd3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Spring2/spring2/demo1/demo1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.OOP">
-    <configuration name="Bth4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OT.Exception.Bth4" />
-      <module name="Java core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OT.Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Comment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.comment.Comment" />
       <module name="Java core" />
@@ -224,6 +222,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.oop.encapsulations.Main" />
+      <module name="Java core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.oop.encapsulations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.oop.OOP" />
       <module name="Java core" />
@@ -239,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.OOP" />
         <item itemvalue="Application.Comment" />
         <item itemvalue="Application.JumpStatements" />
         <item itemvalue="Application.LoopStatements" />
-        <item itemvalue="Application.Bth4" />
       </list>
     </recent_temporary>
   </component>
