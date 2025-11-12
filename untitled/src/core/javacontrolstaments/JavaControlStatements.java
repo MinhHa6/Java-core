@@ -14,6 +14,7 @@ public class JavaControlStatements {
 
    /*
    -cau lenh switch case
+   boi canh ap dung khi dieu kien phuc tap
    -* cu phap
   String expression = "874";
 switch(expression){
