@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb2/B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb2/B5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb2/B6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb2/B8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb2/SinhVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb2/XeMay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/arrays/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb2/B13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/javastring/JavaString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/core/javacontrolstaments/JavaControlStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/core/javacontrolstaments/JavaControlStatements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +50,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Array_List.executor": "Run",
+    "Application.Arrays.executor": "Run",
     "Application.B10.executor": "Run",
     "Application.B12.executor": "Run",
+    "Application.B13.executor": "Run",
     "Application.B5.executor": "Run",
     "Application.B6.executor": "Run",
     "Application.B8.executor": "Run",
@@ -76,6 +73,7 @@
     "Application.Hinh.executor": "Run",
     "Application.Java.Lesson09.Main.executor": "Run",
     "Application.Java.Lesson10.MainClass.executor": "Run",
+    "Application.JavaString.executor": "Run",
     "Application.JumpStatements.executor": "Run",
     "Application.Lab01.Lesson1.executor": "Run",
     "Application.Lab02.B07.Main.executor": "Run",
@@ -178,9 +176,22 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.B8">
-    <configuration name="B5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.bt.lb2.B5" />
+  <component name="RunManager" selected="Application.JavaString">
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.arrays.Arrays" />
+      <module name="Java core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.bt.lb2.B13" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
@@ -218,25 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.oop.encapsulations.Main" />
+    <configuration name="JavaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.javastring.JavaString" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.oop.encapsulations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="core.bt.lb2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.bt.lb2.Main" />
-      <module name="Java core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.bt.lb2.*" />
+          <option name="PATTERN" value="core.javastring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaString" />
+        <item itemvalue="Application.Arrays" />
+        <item itemvalue="Application.B13" />
         <item itemvalue="Application.B8" />
         <item itemvalue="Application.B6" />
-        <item itemvalue="Application.B5" />
-        <item itemvalue="Application.core.bt.lb2.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
