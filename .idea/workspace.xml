@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/javacollection/JavaCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/javacollection/javaarraylist/JavaArrList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java core/core/javastring/JavaString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/core/javastring/JavaString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/core/javastring/JavaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/core/javastring/JavaString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/core/javacollection/JavaCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/core/javacollection/JavaCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,8 @@
     "Application.Hinh.executor": "Run",
     "Application.Java.Lesson09.Main.executor": "Run",
     "Application.Java.Lesson10.MainClass.executor": "Run",
+    "Application.JavaArrList.executor": "Run",
+    "Application.JavaCollection.executor": "Run",
     "Application.JavaString.executor": "Run",
     "Application.JumpStatements.executor": "Run",
     "Application.Lab01.Lesson1.executor": "Run",
@@ -176,7 +178,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.JavaString">
+  <component name="RunManager" selected="Application.JavaArrList">
     <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.arrays.Arrays" />
       <module name="Java core" />
@@ -203,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.bt.lb2.B6" />
+    <configuration name="JavaArrList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.javacollection.javaarraylist.JavaArrList" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.bt.lb2.*" />
+          <option name="PATTERN" value="core.javacollection.javaarraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.bt.lb2.B8" />
+    <configuration name="JavaCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.javacollection.JavaCollection" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.bt.lb2.*" />
+          <option name="PATTERN" value="core.javacollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaArrList" />
+        <item itemvalue="Application.JavaCollection" />
         <item itemvalue="Application.JavaString" />
         <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.B13" />
-        <item itemvalue="Application.B8" />
-        <item itemvalue="Application.B6" />
       </list>
     </recent_temporary>
   </component>
