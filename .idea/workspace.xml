@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="" />
+    <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb3/B7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb4/HoaDonBanhMy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/bt/lb4/quanLyHoaDon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/core/javacollection/hashmaps/HM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +58,7 @@
     "Application.B13.executor": "Run",
     "Application.B5.executor": "Run",
     "Application.B6.executor": "Run",
+    "Application.B7.executor": "Run",
     "Application.B8.executor": "Run",
     "Application.B9.executor": "Run",
     "Application.BaiThucHanh04.executor": "Run",
@@ -176,9 +183,27 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HashSettt">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="core.javacollection.hashmaps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.B7">
     <configuration name="B1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.bt.lb3.B1" />
+      <module name="Java core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.bt.lb3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.bt.lb3.B7" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
@@ -216,19 +241,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.javacollection.JavaCollection" />
-      <module name="Java core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.javacollection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeSetss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.javacollection.treeset.TreeSetss" />
       <module name="Java core" />
@@ -244,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B7" />
         <item itemvalue="Application.HashSettt" />
         <item itemvalue="Application.TreeSetss" />
         <item itemvalue="Application.B1" />
         <item itemvalue="Application.JavaArrList" />
-        <item itemvalue="Application.JavaCollection" />
       </list>
     </recent_temporary>
   </component>
