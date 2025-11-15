@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/core/conversion/JavaConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/core/conversion/JavaConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java core/core/localdatetime/JavaLocalDateTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java core/core/localdatetime/JavaLocalDateTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/core/localdatetime/JavaLocalDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/core/localdatetime/JavaLocalDateTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,7 @@
     "Application.Java.Lesson10.MainClass.executor": "Run",
     "Application.JavaArrList.executor": "Run",
     "Application.JavaCollection.executor": "Run",
+    "Application.JavaLocalDateTime.executor": "Run",
     "Application.JavaRegex.executor": "Run",
     "Application.JavaString.executor": "Run",
     "Application.JumpStatements.executor": "Run",
