@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d8925d-f5b1-41b5-97b9-fc2522ca0dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/core/regex/JavaRegex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/core/conversion/JavaConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/core/conversion/JavaConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +187,7 @@
       <recent name="core.javacollection.hashmaps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaRegex">
+  <component name="RunManager" selected="Application.JavaLocalDateTime">
     <configuration name="B7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.bt.lb3.B7" />
       <module name="Java core" />
@@ -214,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.regex.JavaRegex" />
+    <configuration name="JavaLocalDateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.localdatetime.JavaLocalDateTime" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.regex.*" />
+          <option name="PATTERN" value="core.localdatetime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.javacollection.treeset.TreeSetss" />
+    <configuration name="JavaRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.regex.JavaRegex" />
       <module name="Java core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.javacollection.treeset.*" />
+          <option name="PATTERN" value="core.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaLocalDateTime" />
         <item itemvalue="Application.JavaRegex" />
         <item itemvalue="Application.quanLyHoaDon" />
         <item itemvalue="Application.B7" />
         <item itemvalue="Application.HashSettt" />
-        <item itemvalue="Application.TreeSetss" />
       </list>
     </recent_temporary>
   </component>
