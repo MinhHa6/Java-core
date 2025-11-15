@@ -64,7 +64,7 @@ public class HoaDonBanhMy {
         this.giaBanMotChiecBanh = giaBanMotChiecBanh;
     }
 
-    public void tinhTienKhuyenMai()
+    public BigDecimal tinhTienKhuyenMai()
     {
         if(soLuongBanhCanGiao >=10)
         {
@@ -72,7 +72,28 @@ public class HoaDonBanhMy {
         }
         if(soLuongBanhCanGiao>=100)
         {
-            tienKhuyenMai=tongTienHang.multiply(BigDecimal.valueOf(0.2));
+           tienKhuyenMai=tongTienHang.multiply(BigDecimal.valueOf(0.2));
         }
+        return tienKhuyenMai;
+    }
+
+    public BigDecimal tinhTien()
+    {
+       return tongTienHang=giaBanMotChiecBanh.multiply(BigDecimal.valueOf(soLuongBanhCanGiao));
+    }
+    public BigDecimal hoaDon()
+    {
+        return tongTienHang.subtract(tienKhuyenMai);
+    }
+    @Override
+    public String toString() {
+        return "HoaDonBanhMy{" +
+                "maHoaDon='" + maHoaDon + '\'' +
+                ", ngayLapHoaDon=" + ngayLapHoaDon +
+                ", tenKhachHang='" + tenKhachHang + '\'' +
+                ", diaChiKhach='" + diaChiKhach + '\'' +
+                ", soLuongBanhCanGiao=" + soLuongBanhCanGiao +
+                ", giaBanMotChiecBanh=" + giaBanMotChiecBanh +
+                '}';
     }
 }
