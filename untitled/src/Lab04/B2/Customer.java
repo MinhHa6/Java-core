@@ -41,5 +41,6 @@ public class Customer {
     }
 
     public void accept(String helloLamda) {
+
     }
 }
