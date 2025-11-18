@@ -70,6 +70,7 @@ Java 8 giới thiệu các công cụ mới để làm việc với các ứng d
 
 CompletableFuture.supplyAsync(() -> "Hello")
                  .thenAccept(System.out::println);
+
  */
 public class Java8 {
 }
