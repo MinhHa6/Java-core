@@ -40,4 +40,6 @@ public class Customer {
         System.out.println("Tong luong:"+luongthuong(10));
     }
 
+    public void accept(String helloLamda) {
+    }
 }
