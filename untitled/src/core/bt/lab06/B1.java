@@ -1,7 +1,9 @@
 package core.bt.lab06;
 
 import java.util.Random;
-// nhap mang co n phan tu nhap thu cong 
+import java.util.Scanner;
+
+// nhap mang co n phan tu nhap thu cong
 // nhap 1 mang co 10 phan tu cac so nguyen, hien thi mang vu anhap ra man hinh
 // nhap tu dong dung random mang co 10 phan tu
 public class B1 {
@@ -17,6 +19,15 @@ public class B1 {
         {
             arrs[i]=r.nextInt(100);
             System.out.println(arrs[i]);
+        }
+
+        System.out.println("Nhap n phan tu cua  mang :");
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        int arrss[] = new int[n];
+        for (int i=0;i<arrss.length;i++ )
+        {
+            System.out.println(arrss[i]);
         }
     }
 }
