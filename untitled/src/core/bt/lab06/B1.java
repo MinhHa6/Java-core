@@ -24,10 +24,15 @@ public class B1 {
         System.out.println("Nhap n phan tu cua  mang :");
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
-        int arrss[] = new int[n];
-        for (int i=0;i<arrss.length;i++ )
+        int arrss[] = new  int[n];
+        for (int i=0;i<n;i++ )
         {
-            System.out.println(arrss[i]);
+            System.out.println("Nhap gia tri vao cac phan tu:"+i);
+            arrss[i]= sc.nextInt();
+        }
+        for (int x:arrss)
+        {
+            System.out.println("Cac gia tri cua mang la:"+x);
         }
     }
 }
