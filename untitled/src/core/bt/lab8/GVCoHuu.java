@@ -30,7 +30,10 @@ public class GVCoHuu extends GiangVien {
     @Override
     public double tinhLuong()
     {
-        if(so)
+        if (soGioGiangDay > sohquyding) {
+            return luongThoaThuan + (soGioGiangDay - sohquyding) * 200000;
+        }
+        return luongThoaThuan;
 
     }
 }

@@ -7,7 +7,7 @@ public abstract class GiangVien {
     private String email;
     private String diachi;
     private int sdt;
-    private float soGioGiangDay;
+    protected float soGioGiangDay;
 
     public GiangVien(String nameGv, String email, String diachi, int sdt, float soGioGiangDay) {
         this.nameGv = nameGv;
