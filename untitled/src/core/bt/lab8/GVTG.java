@@ -1,5 +1,7 @@
 package core.bt.lab8;
 
+import java.util.Scanner;
+
 public class GVTG extends GiangVien{
     private String coQuanLamViec;
 
@@ -10,10 +12,20 @@ public class GVTG extends GiangVien{
     @Override
     public void input()
     {
-        System.out.println("=====TG=====");
+        super.input();
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Nhap co quan lam viec :");
+        coQuanLamViec=sc.nextLine();
+    }
+    @Override
+    public  void display()
+    { System.out.println("=====TG=====");
+        super.display();
+        System.out.println("CoQuan:"+coQuanLamViec);
+        System.out.println("Luong:"+tinhLuong());
     }
     @Override
     public double tinhLuong() {
-        return 0;
+        return soGioGiangDay *200000;
     }
 }
